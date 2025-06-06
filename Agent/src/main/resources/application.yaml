@@ -1,0 +1,26 @@
+
+langchain4j:
+  open-ai:
+    streaming-chat-model:
+      model-name: deepseek-chat
+      api-key: sk-e17abee33b214d4795f551c5694614e3
+      base-url: https://api.deepseek.com/v1
+      log-responses: true
+      log-requests: true
+
+server:
+  port: 8080
+logging:
+  level:
+    root:
+      info
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/chat_memory_db
+  datasource:
+    url: jdbc:mysql://localhost:3306/CampusEase?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
