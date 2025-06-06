@@ -3,7 +3,7 @@ langchain4j:
   open-ai:
     streaming-chat-model:
       model-name: deepseek-chat
-      api-key: sk-e17abee33b214d4795f551c5694614e3
+      api-key:  # add your api key
       base-url: https://api.deepseek.com/v1
       log-responses: true
       log-requests: true
